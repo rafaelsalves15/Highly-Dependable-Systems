@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="7" failures="0" name="pt.ulisboa.tecnico.hdsledger.tests.SystemTest" time="9.653" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.10+7"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/rui/SEC/HDS24/HDSLedger"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.dir" value="/home/rui/SEC/HDS24/HDSLedger"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.runtime.version" value="17.0.10+7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Linux"/>
+    <property name="classworlds.conf" value="/opt/maven/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="maven.conf" value="/opt/maven/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.6.1-arch1-1"/>
+    <property name="library.jansi.path" value="/opt/maven/lib/jansi-native"/>
+    <property name="user.home" value="/home/rui"/>
+    <property name="user.timezone" value="Europe/Lisbon"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="rui"/>
+    <property name="java.class.path" value="/opt/maven/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/usr/lib/jvm/java-17-openjdk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/opt/maven"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+  </properties>
+  <testcase classname="pt.ulisboa.tecnico.hdsledger.tests.SystemTest" name="pt.ulisboa.tecnico.hdsledger.tests.SystemTest.test_single_client" time="0.829"/>
+  <testcase classname="pt.ulisboa.tecnico.hdsledger.tests.SystemTest" name="pt.ulisboa.tecnico.hdsledger.tests.SystemTest.test_check_balance" time="1.798"/>
+  <testcase classname="pt.ulisboa.tecnico.hdsledger.tests.SystemTest" name="pt.ulisboa.tecnico.hdsledger.tests.SystemTest.test_single_client_multiple_requests" time="2.511"/>
+  <testcase classname="pt.ulisboa.tecnico.hdsledger.tests.SystemTest" name="pt.ulisboa.tecnico.hdsledger.tests.SystemTest.test_transfer_with_insufficient_funds" time="1.426"/>
+  <testcase classname="pt.ulisboa.tecnico.hdsledger.tests.SystemTest" name="pt.ulisboa.tecnico.hdsledger.tests.SystemTest.test_transfer_with_negative_amount" time="0.793"/>
+  <testcase classname="pt.ulisboa.tecnico.hdsledger.tests.SystemTest" name="pt.ulisboa.tecnico.hdsledger.tests.SystemTest.test_transfer_own_account" time="0.841"/>
+  <testcase classname="pt.ulisboa.tecnico.hdsledger.tests.SystemTest" name="pt.ulisboa.tecnico.hdsledger.tests.SystemTest.test_concurrent_clients" time="1.455"/>
+</testsuite>

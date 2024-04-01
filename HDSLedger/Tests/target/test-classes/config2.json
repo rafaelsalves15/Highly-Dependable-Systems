@@ -1,0 +1,38 @@
+{
+    "nodes":
+        [
+            {   
+                "id": 1,
+                "hostname": "localhost",
+                "port": 3006
+            },
+            {
+                "id": 2,
+                "hostname": "localhost",
+                "port": 3007
+            },
+            {
+                "id": 3,
+                "hostname": "localhost",
+                "port": 3008
+            },
+            {
+                "id": 4,
+                "hostname": "localhost",
+                "port": 3009
+            }
+        ],
+    "clients": 
+        [
+            {
+                "id": 5,
+                "hostname": "localhost",
+                "port": 3010
+            },
+            {
+                "id": 6,
+                "hostname": "localhost",
+                "port": 3011
+            }
+        ]
+}
